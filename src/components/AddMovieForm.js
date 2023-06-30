@@ -50,7 +50,7 @@ function AddMovieForm({onAddMovie}){
                     name="image"
                     onChange={handleChange}
                     value={formData.image}
-                    placeholder="Enter the image location of the movie..."
+                    placeholder="Enter the image location or URL of the movie..."
                     className="input-text"
                 />
                 <br />
