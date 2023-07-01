@@ -3,7 +3,7 @@ import React from "react";
 function MovieCard({movie, onDeleteMovie, onUpdateMovie}){
     const {id, name, image, likes, comment} = movie
 
-    console.log("image: ", `${image}`)
+    //console.log("image: ", `${image}`)
 
     function handleClickDelete(){
         fetch(`http://localhost:3001/movies/${id}`, {
@@ -39,7 +39,6 @@ function MovieCard({movie, onDeleteMovie, onUpdateMovie}){
             <button className="like-btn" onClick={handleClickLike}>
                 Like {"❤️"}
             </button>
-            <br />
             <button className="del-btn" onClick={handleClickDelete}>
                 Delete
             </button>

@@ -10,9 +10,9 @@
     {
       "id": 2,
       "name": "Bad Boys",
-      "image": "./mvs/Bad-Boys.jpg",
-      "likes": 6,
-      "comment": "Fantastic"
+      "image": "mvs/Bad-Boys.jpg",
+      "likes": 5,
+      "comment": "Very Good!"
     },
     {
       "id": 3,
