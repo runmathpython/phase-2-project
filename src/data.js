@@ -41,23 +41,28 @@ const movieSpecs = [
       name: "Tom Cruise",
       movies: [
         "Jack Reacher: Never Go Back", "Mission Impossible 4",
-        "War of the Worlds"],
+        "War of the Worlds"]
     }
   ];
   
   const directors = [
     {
-      name: "Scott Derrickson",
-      movies: ["Doctor Strange", "Sinister", "The Exorcism of Emily Rose"],
+      name: "Stanley Kubrick",
+      movies: ["A Clockwork Orange", "2001: A Space Odyssey", "He Shining"],
     },
     {
-      name: "Mike Mitchell",
-      movies: ["Trolls", "Alvin and the Chipmunks: Chipwrecked", "Sky High"],
+      name: "Steven Spielberg",
+      movies: ["Jurassic Park", "E.T. the Extra Terrestrial",
+       "Raiders of the Lost Ark", "Catch Me If You Can", "Indiana Jone and the Temple of Doom"],
     },
     {
-      name: "Edward Zwick",
-      movies: ["Jack Reacher: Never Go Back", "Blood Diamon", "The Siege"],
+      name: "Martin Scorsese",
+      movies: ["Goodfellas", "Casino", "After Hours", "Hugo", "The Irishman", "Raging Bull", "The Age of Innocence"]
     },
+    {
+      name: "Denis Villeneuve",
+      movies: ["Arrival", "Blade Runner 2049", "August 32nd on Earth"]
+    }
   ];
   
-  export { movieSpecs, actors, directors };
+  export {movieSpecs, actors, directors};

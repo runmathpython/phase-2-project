@@ -15,7 +15,7 @@ function Directors() {
   ))
   return(
     <div>
-      <h1>Directors Page</h1>
+      <h1 id="head">Directors List</h1>
       {directorList}
     </div>
   )
