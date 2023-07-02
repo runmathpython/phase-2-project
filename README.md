@@ -9,4 +9,4 @@
 
 1.2.2 The image URL can be used as the image location, also.
 
-2. Inline style doesn't work.
+2. Inline style doesn't work. So css is used for styling.
