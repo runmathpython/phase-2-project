@@ -60,7 +60,7 @@ function AddMovieForm({onAddMovie}){
                     value="SUBMIT"
                     className="submit"
                 />
-                <p>After SUBMIT, or to cancel, click Add A New Movie button</p>
+                <p>After SUBMIT, or to cancel, click New Movie button again</p>
             </form>
         </div>
     )

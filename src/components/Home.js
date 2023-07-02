@@ -48,9 +48,11 @@ function Home(){
   }
 
   function handleUpdateMovie(updatedMovie){
+      // find the movie to be updated and replace it with updated movie with the new likes
       const updatedMovies = movies.map(movie =>
       movie.id === updatedMovie.id ? updatedMovie : movie
       );
+      // render all the movies
       setMovies(updatedMovies);
   }
 
