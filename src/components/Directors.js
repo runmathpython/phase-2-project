@@ -5,7 +5,7 @@ function Directors() {
   const directorList = directors.map(director => (
     <div className="spec" key={director.name}>
       <h1 id="head">{director.name}</h1>
-      <h4>Movies:</h4>
+      <h3>Movies:</h3>
       <ul>
         {director.movies.map(movie => (
           <li key={movie}>{movie}</li>
