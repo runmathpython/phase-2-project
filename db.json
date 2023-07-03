@@ -11,15 +11,15 @@
       "id": 2,
       "name": "Bad Boys",
       "image": "mvs/Bad-Boys.jpg",
-      "likes": 7,
+      "likes": 9,
       "comment": "Very Good!"
     },
     {
       "id": 3,
       "name": "Daydream Nation",
       "image": "./mvs/Daydream-Nation.jpg",
-      "likes": 4,
-      "comment": "Wonderful!"
+      "likes": 5,
+      "comment": "Fantastic!"
     },
     {
       "id": 4,

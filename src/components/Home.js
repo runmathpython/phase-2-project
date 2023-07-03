@@ -27,20 +27,19 @@ function Home(){
     setMovies([...movies, newMovie])
   }
 
-  function handleNewComment(theMovie){
-    // find the movie to be updated
-    let k = null;
-    for (let i = 0; i < movies.length; i++){
-        if(movies[i].id === theMovie.id){
-            k = i
-            break
-        }
-    }
-    // update the movie
-    movies[k] = theMovie
-    // render the movies, together with the movie updated with the new comment
-    setMovies([...movies])
+  function updateTheSetOfAllThelMovies(updatedOne){
+    // find the movie to be updated and replace it with updated movie
+    const updatedMovies = movies.map(movie =>
+      movie.id === updatedOne.id ? updatedOne : movie
+      )
+      // render all the movies
+      setMovies(updatedMovies)
   }
+
+  function handleNewComment(theMovie){
+    // find the movie to be updated and replace it with updated movie with the new comment
+    updateTheSetOfAllThelMovies(theMovie)
+}
 
   function handleDeleteMovie(movieToBeDeleted){
       const updatedMovies = movies.filter(movie => movie.id !== movieToBeDeleted.id)
@@ -49,11 +48,7 @@ function Home(){
 
   function handleUpdateMovie(updatedMovie){
       // find the movie to be updated and replace it with updated movie with the new likes
-      const updatedMovies = movies.map(movie =>
-      movie.id === updatedMovie.id ? updatedMovie : movie
-      );
-      // render all the movies
-      setMovies(updatedMovies);
+      updateTheSetOfAllThelMovies(updatedMovie)
   }
 
   return(

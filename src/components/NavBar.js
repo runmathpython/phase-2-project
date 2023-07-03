@@ -7,8 +7,8 @@ function NavBar() {
       <ul>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/movieSpecs">Movie Specs</NavLink></li>
-        <li><NavLink to="/directors">Directors</NavLink></li>
-        <li><NavLink to="/actors">Actors</NavLink></li>
+        <li><NavLink to="/directors">Directors List</NavLink></li>
+        <li><NavLink to="/actors">Actors List</NavLink></li>
       </ul>
       
     </div>
