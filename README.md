@@ -23,12 +23,15 @@ Therer are four user side routes, one is Home, another is Movie Specs, another i
 Runing this app, the user clones the repo first, which is located at
 https://github.com/runmathpython/phase-2-project
 
-The baked repo is at the location as follows:
+The backend repo is at the location as follows:
 https://github.com/runmathpython/json-server-template
 
+If not installed, install JSON Server globally on your machine using the command as follows:
+$ npm install -g json-server
+
 Then, run the following code at the terminal:
-run npm server
-npm start
+$ run npm server
+$ npm start
 
 And developing this app, I've had serveral issues that I have corrected,
 and those are as follows:
